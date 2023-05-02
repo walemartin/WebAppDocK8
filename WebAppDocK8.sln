@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppDocK8", "WebAppDocK8\WebAppDocK8.csproj", "{C21E8E41-1723-4F26-9DDC-F59BE36399FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAppDocK8", "WebAppDocK8\WebAppDocK8.csproj", "{C21E8E41-1723-4F26-9DDC-F59BE36399FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppDocK8Tests", "WebAppDocK8Tests\WebAppDocK8Tests.csproj", "{B0F8976D-863A-4AF7-9CE4-325B88C39058}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{C21E8E41-1723-4F26-9DDC-F59BE36399FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C21E8E41-1723-4F26-9DDC-F59BE36399FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C21E8E41-1723-4F26-9DDC-F59BE36399FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0F8976D-863A-4AF7-9CE4-325B88C39058}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0F8976D-863A-4AF7-9CE4-325B88C39058}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0F8976D-863A-4AF7-9CE4-325B88C39058}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0F8976D-863A-4AF7-9CE4-325B88C39058}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

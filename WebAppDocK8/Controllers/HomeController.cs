@@ -13,6 +13,10 @@ namespace WebAppDocK8.Controllers
             _logger = logger;
         }
 
+        public HomeController()
+        {
+        }
+
         public IActionResult Index()
         {
             return View();
