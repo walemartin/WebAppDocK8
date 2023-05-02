@@ -1,0 +1,22 @@
+﻿apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: first-dep
+  labels:
+    app: aspnet-core-app
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      component: web
+  template:
+    metadata:
+      labels:
+        component: web
+    spec:
+      containers:
+        - name: simplewebapp
+          image: olawalemartin/webappdock8:v1.0
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 80
